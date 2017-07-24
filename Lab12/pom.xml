@@ -83,25 +83,14 @@
   	<repository>
   	<id>rhga</id>
   	<name>rhgroup</name>
-  	<url>http://nexus-ci.apps.192.168.99.102.nip.io/content/groups/redhat-group</url>
-  	</repository>
-    <repository>
-  	<id>central</id>
-  	<name>central</name>
-  	<url>http://nexus-ci.apps.192.168.99.102.nip.io/content/repositories/central/</url>
-  	</repository>
-
+  	<url>http://nexus-ci.svc.cluster.local:8081/content/groups/public</url>
+      </repository>
   </repositories>
   <pluginRepositories>
   <pluginRepository>
   	<id>rhga</id>
   	<name>rhggroup</name>
-  	<url>http://nexus-ci.apps.192.168.99.102.nip.io/content/groups/redhat-group</url>
-  	</pluginRepository>
-      <pluginRepository>
-  	<id>central</id>
-  	<name>central</name>
-  	<url>http://nexus-ci.apps.192.168.99.102.nip.io/content/repositories/central/</url>
+  	<url>http://nexus-ci.svc.cluster.local:8081/content/groups/public</url>
   	</pluginRepository>
   </pluginRepositories>
   <build>
