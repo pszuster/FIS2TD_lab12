@@ -6,7 +6,7 @@
    	 <mirror>
       <id>nexus</id>
       <name>Nexus</name>
-      <url>http://nexus.ci.svc.cluster.local:8081/content/repositories/central/</url>
+      <url>http://nexus.ci.svc.cluster.local:8081/content/groups/public</url>
       <mirrorOf>central</mirrorOf>
     </mirror>
   </mirrors>
